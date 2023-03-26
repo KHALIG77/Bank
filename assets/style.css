@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: rgb(136, 129, 129);
+}
+
+input {
+  display: block;
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-div {
+  display: flex;
+}
+
+.container {
+  width: 25%;
+  min-height: 200px;
+  margin: 10% auto;
+}
+
+.action {
+  min-height: 200px;
+  width: 100%;
+  border-radius: 10%;
+  background-color: yellow;
+}
+.action .balance {
+  height: 70px;
+  padding-top: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+.action .transfers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.action .transfers i {
+  font-size: 25px;
+}
+.action .transfers .increase-balance, .action .transfers .card-to-card, .action .transfers .communal {
+  width: 30%;
+}
+.action .transfers .input-increase-balance, .action .transfers .confirm-increase-btn, .action .transfers .input-card-balance, .action .transfers .confirm-card-btn, .action .transfers .input-card-count, .action .transfers .communal-btn {
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.info {
+  min-height: 50px;
+  background-color: aquamarine;
+}
+
+.info table {
+  border: 1px solid black;
+  width: 100%;
+}
+.info table th {
+  position: relative;
+  border: 1px solid black;
+}
+.info table td {
+  border: 1px solid black;
+  text-align: center;
+}
+.info table span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+  color: white;
+}
+
+#myOptions {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

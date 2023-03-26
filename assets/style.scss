@@ -1,0 +1,88 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:15px;
+    color:rgb(136, 129, 129);
+}
+input{
+    display: block;
+    width: 100%;
+}
+
+.d-none{
+    display: none;
+}
+.flex-div{
+display: flex;
+}
+
+.container{
+width:25%;
+min-height: 200px;
+margin:10% auto;
+}
+.action{
+    min-height: 200px;
+    width: 100%;
+    border-radius: 10%;
+    background-color:yellow;
+    .balance{
+        height: 70px;
+        padding-top: 40px;
+        margin-top:40px;
+        text-align: center;
+        
+    }
+    .transfers{
+       
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+      i{
+        font-size:25px;
+      }
+      .increase-balance,.card-to-card,.communal{
+      width: 30%;
+     
+        
+      }
+      .input-increase-balance ,.confirm-increase-btn ,.input-card-balance,.confirm-card-btn,.input-card-count,.communal-btn{
+        padding:7px;
+        margin-bottom: 10px;
+      }
+    
+    }
+}
+.info{
+    min-height: 50px;
+    background-color: aquamarine    ;
+    // overflow-y: scroll;
+}
+.info table{
+   
+    border:1px solid black;
+    width: 100%;
+    th{
+       
+        position: relative;
+        border:1px solid black;
+        
+    }
+    td{
+        border:1px solid black;
+        text-align: center;
+    }
+    span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size:20px;
+        color:white;
+    }
+}
+#myOptions{
+    width: 100%;
+}
